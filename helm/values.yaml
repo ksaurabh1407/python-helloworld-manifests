@@ -1,0 +1,12 @@
+namespace:
+  name: test
+ 
+image:
+  repository: ksaurabh/python-helloworld 
+  tag: latest
+
+replicaCount: 3
+
+service:
+  nodeport: 30080
+  targetport: 5000  
