@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pyhton-helloworld-service
+  name: python-helloworld-service
   labels:
     app: python-helloworld
 spec:
