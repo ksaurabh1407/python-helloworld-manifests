@@ -6,10 +6,10 @@ metadata:
     app: python-helloworld
 spec:
  type: NodePort
- - ports:
-     port: 80
+ ports:
+   - port: 80
      targetPort: 5000  
-     NodePort: 30010
+     nodePort: 30010
  selector:
    app: python-helloworld
 
